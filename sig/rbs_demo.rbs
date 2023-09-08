@@ -1,0 +1,9 @@
+module RbsDemo
+  VERSION: String
+  # See the writing guide of rbs: https://github.com/ruby/rbs#guides
+
+  class Calculator
+    def initialize: (Integer) -> void
+    def sumplus: (Array[Integer]) -> Integer
+  end
+end
