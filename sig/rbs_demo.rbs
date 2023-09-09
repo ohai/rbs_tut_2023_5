@@ -5,5 +5,7 @@ module RbsDemo
   class Calculator
     def initialize: (Integer) -> void
     def sumplus: (Array[Integer]) -> Integer
+    
+    @x: Integer
   end
 end
