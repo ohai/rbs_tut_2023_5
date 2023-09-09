@@ -1,6 +1,9 @@
 module RbsDemo
   VERSION: String
   # See the writing guide of rbs: https://github.com/ruby/rbs#guides
+  
+  class Error
+  end
 
   class Calculator
     def initialize: (Integer) -> void
